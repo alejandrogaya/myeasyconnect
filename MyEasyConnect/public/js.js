@@ -542,7 +542,7 @@ const createRemindersCard = () => {
                         <button class="change">CHANGE</button>
                         ${e.Done == 0 ? "<button class='done'>DONE</button>" : ''}
                     </div>
-                </div-->
+                </div>
             `;
         }
     });
@@ -582,7 +582,7 @@ const createRemindersCard = () => {
                         <button class="change">CHANGE</button>
                         ${e.Done == 0 ? "<button class='done'>DONE</button>" : ''}
                     </div>
-                </div-->
+                </div>
             `;
         }
     });
