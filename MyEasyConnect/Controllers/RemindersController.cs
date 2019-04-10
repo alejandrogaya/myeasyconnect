@@ -28,7 +28,7 @@ namespace MyEasyConnect.Controllers
                     cmd.Connection = conn;
 
                     StringBuilder sql = new StringBuilder();
-                    sql.Append("SELECT R.ID, R.USER_ID, R.REMINDER_DATE, R.TITLE, R.DESCRIPTION, R.DONE ");
+                    sql.Append("SELECT R.ID, R.USER_ID, R.REMINDER_DATE, R.TITLE, R.DESCRIPTION, R.DONE, R.SUBTITLE ");
                     sql.Append("  FROM REMINDER R ");
                     sql.Append(" WHERE R.USER_ID = :VAR");
 
@@ -50,7 +50,8 @@ namespace MyEasyConnect.Controllers
                                 Date = Convert.ToDateTime(dr["REMINDER_DATE"]),
                                 Title = dr["TITLE"].ToString(),
                                 Description = dr["DESCRIPTION"].ToString(),
-                                Done = dr["DONE"].ToString()
+                                Done = dr["DONE"].ToString(),
+                                Subtitle = dr["SUBTITLE"].ToString()
                             };
                             data.Reminders.Add(reminder);
                         }

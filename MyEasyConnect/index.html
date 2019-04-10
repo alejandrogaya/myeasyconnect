@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="public/img/logo-easy-connect_SBS.png" alt="logo">
+            </div>
+
+            <div class="content-right">
+                <div class="avatar">
+                    <img src="public/img/senior.png" alt="user-avatar">
+                    <div class="notifications">
+                        <p class="notification-number"></p>
+                    </div>
+                    <p class="user-name">
+                        
+                    </p>
+                </div>
+
+                <div class="settings">
+                    <img src="public/img/config.png" alt="settings">
+                    <p>SETTINGS</p>
+                </div>
+
+                <div class="dot">
+                    <img src="public/img/dot3.png" alt="dot3">
+                </div>
+
+                <div class="logout">
+                    <img src="public/img/1419365876_on-off.png" alt="logout">
+                    <p>LOGOUT</p>
+                </div>
+            </div>
+        </nav>
+        <div class="apps">
+            <div id="alerts-and-messaging-card" class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon" src="public/img/warnings-off2.png" alt="app-icon">
+                    <div class="app-text">
+                        <p>
+                            ALERTS AND MESSAGING
+                        </p>
+                    </div>
+
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+                <div class="notifications">
+                    <p class="notification-number"></p>
+                </div>
+            </div>
+            <div id="reminders-calendar-card" class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon" src="public/img/reminders-calendar.png" alt="app-icon">
+                    <div class="app-text">
+                        <p>
+                            REMINDERS CALENDAR
+                        </p>
+                    </div>
+
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+                <div class="notifications">
+                    <p class="notification-number"></p>
+                </div>
+            </div>
+            <div id="circle-of-care-card" class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon" src="public/img/ties2.png" alt="app-icon">
+                    <div class="app-text">
+                        <p>
+                            CIRCLE OF CARE
+                        </p>
+                    </div>
+
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+                <div class="notifications">
+                    <p class="notification-number"></p>
+                </div>
+            </div>
+            <div class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon" src="public/img/daily-care-o-gram.png" alt="app-icon">
+                    <div class="app-text">
+                        <p>
+                            DAILY CARE-O-GRAM
+                        </p>
+                    </div>
+
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+                <div class="notifications">
+                    <p class="notification-number">1</p>
+                </div>
+            </div>
+            <div class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon" src="public/img/casemanager.png" alt="app-icon">
+                    <div class="app-text one-line">
+                        <p>
+                            REPOSITORY
+                        </p>
+                    </div>
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+            </div>
+            <div class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon" src="public/img/my-health-reports (1).png" alt="app-icon">
+                    <div class="app-text one-line">
+                        <p>
+                            REPORTS
+                        </p>
+                    </div>
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+            </div>
+            <div id="my-points-card" class="app-card-border">
+                <div class="app-card">
+                    <img src="public/img/Layer 2.png" alt="layer-dots">
+                    <img class="app-icon my-points" src="public/img/reward-points (1).png" alt="app-icon">
+                    <div class="app-text one-line">
+                        <p>
+                            MY POINTS
+                        </p>
+                    </div>
+
+                    <img class="app-botom-img" src="public/img/Layer 3.png" alt="layer-dots">
+                </div>
+                <div class="score">
+                    <p class="total-points">
+                        Total Points
+                        <span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="alerts-messagin">
+            <div class="title">
+                <img src="public/img/warnings-off2.png" alt="warning-icon">
+                <p>
+                    ALERTS AND MESSAGING
+                </p>
+            </div>
+            <div class="block-content">
+                <nav>
+                    <ul>
+                        <li>
+
+                            <label class="input-container main">.
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </li>
+                        <li>New Message</li>
+                        <li>Inbox
+                            <span id="inbox-notifications" class="notifications">
+                                <p class="notification-number"></p>
+                            </span>
+                        </li>
+                        <li>Sent</li>
+                    </ul>
+                    <div class="search">
+                        <div></div>
+                        <input type="text" name="" id="" placeholder="Search ">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </nav>
+                <div id="messages-container">
+                    <!--div class="messages">
+                        <label class="input-container">
+                            .
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="user">
+                            <div class="user-status inactive"></div>
+                            <p class="user-name">John Snow</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Hi Friend!!</p>
+                        </div>
+                        <div class="message-date">
+                            <p>12 April 2014</p>
+                        </div>
+                        <button class="open">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </!--div>
+                    <div class="message-content">
+                        <p>Hi Friend!!</p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, temporibus ad! Maxime eum officiis modi sed iusto optio
+                            hic exercitationem. Harum atque ad voluptate laboriosam consequatur debitis quae veniam quaerat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum alias doloremque adipisci obcaecati
+                            atque corporis ut ipsum repudiandae quos vel sint ab id, expedita, odio nostrum rerum! Doloribus,
+                            earum minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis voluptatem,
+                            laudantium quaerat consequuntur repellendus officia illo. Eos illum nobis sed? Consectetur voluptate
+                            tempore veritatis, officia neque aut accusantium nisi.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                    <div class="messages">
+                        <label class="input-container">
+                            .
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Richard Chaning</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Memorial Clinic</p>
+                        </div>
+                        <div class="message-date">
+                            <p>12 April 2014</p>
+                        </div>
+                        <button>
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content" style="display: none;">
+                        <p>Hi Friend!!</p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, temporibus ad! Maxime eum officiis modi sed iusto optio
+                            hic exercitationem. Harum atque ad voluptate laboriosam consequatur debitis quae veniam quaerat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum alias doloremque adipisci obcaecati
+                            atque corporis ut ipsum repudiandae quos vel sint ab id, expedita, odio nostrum rerum! Doloribus,
+                            earum minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis voluptatem,
+                            laudantium quaerat consequuntur repellendus officia illo. Eos illum nobis sed? Consectetur voluptate
+                            tempore veritatis, officia neque aut accusantium nisi.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                    <div class="messages">
+                        <label class="input-container">
+                            .
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Elisabeth Bale</p>
+                        </div>
+                        <div class="message-title">
+                            <p>From Connecticut</p>
+                        </div>
+                        <div class="message-date">
+                            <p>21 June 2013</p>
+                        </div>
+                        <button>
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content" style="display: none;">
+                        <p>Hi Friend!!</p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, temporibus ad! Maxime eum officiis modi sed iusto optio
+                            hic exercitationem. Harum atque ad voluptate laboriosam consequatur debitis quae veniam quaerat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum alias doloremque adipisci obcaecati
+                            atque corporis ut ipsum repudiandae quos vel sint ab id, expedita, odio nostrum rerum! Doloribus,
+                            earum minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis voluptatem,
+                            laudantium quaerat consequuntur repellendus officia illo. Eos illum nobis sed? Consectetur voluptate
+                            tempore veritatis, officia neque aut accusantium nisi.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                    <div class="messages">
+                        <label class="input-container">
+                            .
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Sarah Connor</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Cyberdyne Systems</p>
+                        </div>
+                        <div class="message-date">
+                            <p>20 June 2013</p>
+                        </div>
+                        <button>
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content" style="display: none;">
+                        <p>Hi Friend!!</p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, temporibus ad! Maxime eum officiis modi sed iusto optio
+                            hic exercitationem. Harum atque ad voluptate laboriosam consequatur debitis quae veniam quaerat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum alias doloremque adipisci obcaecati
+                            atque corporis ut ipsum repudiandae quos vel sint ab id, expedita, odio nostrum rerum! Doloribus,
+                            earum minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis voluptatem,
+                            laudantium quaerat consequuntur repellendus officia illo. Eos illum nobis sed? Consectetur voluptate
+                            tempore veritatis, officia neque aut accusantium nisi.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                    <div class="messages">
+                        <label class="input-container">
+                            .
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Arturo González</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Recordatorio Consulta</p>
+                        </div>
+                        <div class="message-date">
+                            <p>20 June 2013</p>
+                        </div>
+                        <button>
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content" style="display: none;">
+                        <p>Hi Friend!!</p>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, temporibus ad! Maxime eum officiis modi sed iusto optio
+                            hic exercitationem. Harum atque ad voluptate laboriosam consequatur debitis quae veniam quaerat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum alias doloremque adipisci obcaecati
+                            atque corporis ut ipsum repudiandae quos vel sint ab id, expedita, odio nostrum rerum! Doloribus,
+                            earum minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis voluptatem,
+                            laudantium quaerat consequuntur repellendus officia illo. Eos illum nobis sed? Consectetur voluptate
+                            tempore veritatis, officia neque aut accusantium nisi.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                    <div class="messages">
+                        <div class="previously-messages">
+                            <p>5 Previously Messages</p>
+                        </div>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <div class="reminders-calendar">
+            <div class="title">
+                <img src="public/img/reminders-calendar.png" alt="warning-icon">
+                <p>
+                    REMINDERS CALENDAR
+                </p>
+                <div class="format">
+                    <p>DAILY / WEEKLY / MONTHLY </p>
+                    <button>
+                        <img src="public/img/square.png" alt="square">
+                    </button>
+                    <button>
+                        <img src="public/img/list.png" alt="list">
+                    </button>
+                </div>
+            </div>
+            <div class="block-content">
+                <div class="today">
+                    <!--div class="date">
+                        <h5>TODAY</h5>
+                        <p>2 JULY / MONDAY</p>
+                    </!--div>
+                    <!--div class="reminder-title contact">
+                        <i class="fas fa-phone"></i>
+                        <div class="title-info">
+                            <p>Call Dr.Smith</p>
+                            <p>675 557 890</p>
+                        </div>
+                    </div>
+                    <div class="reminder-title">
+                        <i class="far fa-calendar-alt"></i>
+                        <div class="title-info">
+                            <p>Ocular Test</p>
+                            <p>Memorial Clinic Miami</p>
+                        </div>
+                        <button class="dismiss">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="reminder-content">
+                        <div class="date-time">
+                            2 JULY 2012 /
+                            <span class="time">14:30</span>
+                        </div>
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque sed ipsa debitis porro doloremque
+                                quo quos ut exercitationem. Eaque corporis magni tempore tempora blanditiis ad iusto, dignissimos
+                                nobis placeat?</p>
+                        </div>
+                        <div class="buttons">
+                            <button class="change">CHANGE</button>
+                            <button class="done">DONE</button>
+                        </div>
+                    </div-->
+                </div>
+
+                <div class="calendar">
+                    <div class="month">
+                        <p id="previous-month">&lt;</p>
+                        <p class="actual-month">
+                            <!--b>JULY 2014</b-->
+                        </p>
+                        <p id="next-month">&gt;</p>
+                    </div>
+                    <div class="week">
+                        <p>S</p>
+                        <p>M</p>
+                        <p>T</p>
+                        <p>W</p>
+                        <p>T</p>
+                        <p>F</p>
+                        <p>S</p>
+                    </div>
+                    <div class="days">
+                        <!--div class="day">
+                            <span>1</span>
+                        </div>
+                        <div class="day actual-day">
+                            <span>2</span>
+                        </div>
+                        <div class="day">
+                            <span>3</span>
+                        </div>
+                        <div class="day">
+                            <span>4</span>
+                        </div>
+                        <div class="day">
+                            <span>5</span>
+                        </div>
+                        <div class="day reminder-day">
+                            <span>6</span>
+                        </div>
+                        <div class="day">
+                            <span>7</span>
+                        </div>
+                        <div class="day">
+                            <span>8</span>
+                        </div>
+                        <div class="day">
+                            <span>9</span>
+                        </div>
+                        <div class="day">
+                            <span>10</span>
+                        </div>
+                        <div class="day">
+                            <span>11</span>
+                        </div>
+                        <div class="day">
+                            <span>12</span>
+                        </div>
+                        <div class="day">
+                            <span>13</span>
+                        </div>
+                        <div class="day">
+                            <span>14</span>
+                        </div>
+                        <div class="day">
+                            <span>15</span>
+                        </div>
+                        <div class="day reminder-day">
+                            <span>16</span>
+                        </div>
+                        <div class="day">
+                            <span>17</span>
+                        </div>
+                        <div class="day">
+                            <span>18</span>
+                        </div>
+                        <div class="day">
+                            <span>19</span>
+                        </div>
+                        <div class="day">
+                            <span>20</span>
+                        </div>
+                        <div class="day">
+                            <span>21</span>
+                        </div>
+                        <div class="day">
+                            <span>22</span>
+                        </div>
+                        <div class="day">
+                            <span>23</span>
+                        </div>
+                        <div class="day">
+                            <span>24</span>
+                        </div>
+                        <div class="day">
+                            <span>25</span>
+                        </div>
+                        <div class="day">
+                            <span>26</span>
+                        </div>
+                        <div class="day reminder-day">
+                            <span>27</span>
+                        </div>
+                        <div class="day">
+                            <span>28</span>
+                        </div>
+                        <div class="day">
+                            <span>29</span>
+                        </div>
+                        <div class="day">
+                            <span>30</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div>
+                        <div class="day">
+                            <span>31</span>
+                        </div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="circle-of-care">
+            <div class="title">
+                <img src="public/img/ties2.png" alt="warning-icon">
+                <p>
+                    CIRCLE OF CARE
+                </p>
+            </div>
+            <div class="block-content">
+                <div class="menu">
+                    <div>FIND</div>
+                    <div class="selected">MY CIRCLE OF CARE</div>
+                    <div>PENDING
+                        <span class="notifications">
+                            <p class="notification-number">1</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="selected-content">
+                    <div class="drag-drop">
+                        <p>
+                            For organize Drag & Drop in the gropus
+                        </p>
+                    </div>
+                    <div class="people">
+                        <!--div class="people-card">
+                            <div class="left-column-red"></div>
+                            <div class="user-detail">
+                                <div class="name">
+                                    <p>
+                                        <b>Francis Fisher Williams</b>
+                                    </p>
+                                    <p>Graphic Designer</p>
+                                </div>
+                                <div class="image">
+                                    <img src="public/img/senior.png" alt="user-image">
+                                </div>
+                                <div class="message">
+                                    <button>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </!--div>
+                        <div class="people-card">
+                            <div class="left-column-green"></div>
+                            <div class="user-detail">
+                                <div class="name">
+                                    <p>
+                                        <b>Marie Kraft Smith</b>
+                                    </p>
+                                    <p>Doctor</p>
+                                </div>
+                                <div class="image">
+                                    <img src="public/img/senior.png" alt="user-image">
+                                </div>
+                                <div class="message-green">
+                                    <button>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="people-card">
+                            <div class="left-column-red"></div>
+                            <div class="user-detail">
+                                <div class="name">
+                                    <p>
+                                        <b>Dolores Vidal Taylor</b>
+                                    </p>
+                                    <p>Comercial</p>
+                                </div>
+                                <div class="image">
+                                    <img src="public/img/senior.png" alt="user-image">
+                                </div>
+                                <div class="message">
+                                    <button>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="people-card">
+                            <div class="left-column-red"></div>
+                            <div class="user-detail">
+                                <div class="name">
+                                    <p>
+                                        <b>Robbie Walker Jr.</b>
+                                    </p>
+                                    <p>CEO NY Memorial</p>
+                                </div>
+                                <div class="image">
+                                    <img src="public/img/senior.png" alt="user-image">
+                                </div>
+                                <div class="message">
+                                    <button>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="people-card">
+                            <div class="left-column-green"></div>
+                            <div class="user-detail">
+                                <div class="name">
+                                    <p>
+                                        <b>Vanessa Herrera Simons</b>
+                                    </p>
+                                    <p>Nurse</p>
+                                </div>
+                                <div class="image">
+                                    <img src="public/img/senior.png" alt="user-image">
+                                </div>
+                                <div class="message-green">
+                                    <button>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="public/js.js"></script>
+</body>
+
+</html>

@@ -84,6 +84,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
+    <Content Include="public\img\1419365876_on-off.png" />
+    <Content Include="public\img\casemanager.png" />
+    <Content Include="public\img\config.png" />
+    <Content Include="public\img\daily-care-o-gram.png" />
+    <Content Include="public\img\dot3.png" />
+    <Content Include="public\img\Ellipse 1.png" />
+    <Content Include="public\img\Layer 2.png" />
+    <Content Include="public\img\Layer 3.png" />
+    <Content Include="public\img\list.png" />
+    <Content Include="public\img\logo-easy-connect_SBS.png" />
+    <Content Include="public\img\my-health-reports %281%29.png" />
+    <Content Include="public\img\Rectangle 1.png" />
+    <Content Include="public\img\Rectangle 2.png" />
+    <Content Include="public\img\reminders-calendar.png" />
+    <Content Include="public\img\reward-points %281%29.png" />
+    <Content Include="public\img\senior.png" />
+    <Content Include="public\img\square.png" />
+    <Content Include="public\img\ties2.png" />
+    <Content Include="public\img\Titular barra.png" />
+    <Content Include="public\img\warnings-off2.png" />
+    <Content Include="public\js.js" />
+    <Content Include="public\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

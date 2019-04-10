@@ -1,0 +1,1084 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    background-color: #fff;
+    height: 94px;
+    border-bottom: 1px solid #dfe0e5;
+    padding-left: 57px;
+    padding-right: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    align-self: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.content-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.notifications {
+    height: 34px;
+    width: 34px;
+    background-color: #fe4f3c;
+    border-radius: 900px;
+    display: flex;
+    justify-content: center;
+    
+}
+.avatar .notifications {
+    margin-left: -17px;
+    margin-top: -49px;
+}
+.notifications .notification-number {
+    color: #fff;
+    font-weight: bold;
+    align-self: center;
+    margin: 0;
+    font-size: 11.15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar img{
+    height: 77px;
+}
+
+.avatar .user-name {
+    font-size: 11.22pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+.settings{
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11.22pt;
+}
+
+.settings p {
+    margin: 0;
+}
+
+.settings img {
+    margin: 0;
+    height: 33px;
+    margin-bottom: 5px;
+}
+
+.dot {
+    margin-left: 33px;
+    display: flex;
+}
+
+.dot img {
+    align-self: center;
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff503f;
+    font-size: 11.22pt;
+    margin-left: 28px;
+}
+
+.logout img {
+    margin: 0;
+    height: 32px;
+    margin-bottom: 5px;
+    filter: invert(45%) sepia(98%) saturate(2887%) hue-rotate(336deg) brightness(107%) contrast(112%);
+}
+
+.logout p {
+    margin: 0;
+}
+
+.apps {
+    margin: 0 auto;
+    width: 948px;
+    display: grid;
+    grid-template-columns: repeat(3, 297px);
+    grid-column-gap: 28px;
+    grid-template-rows: repeat(3, 149px);
+    grid-row-gap: 20px;
+    padding-top: 44px;
+    padding-bottom: 55px;
+}
+
+.app-card-border {
+    border: 1px solid #cccfd6;
+}
+
+.app-card {
+    border: 1px solid #fff;
+    height: 145px;
+    background-color: #f4f5f7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-card img:first-child {
+    margin-left: 7px;
+    margin-top: 7px;
+    align-self: flex-start;
+}
+
+
+.app-botom-img {
+    align-self: flex-end;
+    margin: 0 2px 2px 0;
+}
+
+.app-icon {
+    height: 113px;
+    align-self: center;
+}
+
+.app-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16.5pt;
+    align-self: flex-end;
+    color: #868686;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-right: -8px;
+}
+
+.one-line {
+    margin-bottom: 44px;
+}
+
+.app-text p{
+    margin: 0;
+}
+
+.app-card-border .notifications {
+    margin-top: -136px;
+    margin-left: 250px;
+}
+
+.score {
+    width: 167px;
+    height: 37px;
+    background-color: #fe4f3c;
+    display: flex;
+    justify-content: center;
+}
+
+.app-card-border .score {
+    margin-top: -146px;
+    margin-left: 127px;
+}
+
+.my-points {
+    margin-left: -10px;
+}
+
+.total-points {
+    color: #fff;
+    align-self: center;
+    margin: 0;
+    font-size: 11.15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total-points span {
+    font-weight: bold;
+}
+
+
+.title {
+    padding-left: 56px;
+    height: 57px;
+    border-top: 1px solid #cad3dc;
+    background-color: #dfe0e5;
+    display: flex;
+    align-items: center;
+}
+
+.title > img {
+    height: 52px;
+    margin-right: 44px;
+}
+
+.title > p {
+    color: #868686;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21pt;
+    margin: 0;
+    font-weight: bold;
+}
+
+.block-content {
+    margin-top: 32px;
+    margin: 32px auto 0px;
+    margin-bottom: 218px;
+    width: 940px;
+    border: 1px solid #ced7e0;
+}
+
+.alerts-messagin .block-content nav {
+    height: 55px;
+    background-color: #fefefe;
+    padding: 0;
+}
+
+.alerts-messagin .block-content nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.alerts-messagin .block-content nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.5pt;
+    color: #5f5f5f;
+}
+
+.alerts-messagin .block-content nav ul li .notifications {
+    align-self: flex-start;
+    margin-right: -24px;
+    z-index: 99;
+    margin-top: -13px;
+    height: 27px;
+    width: 27px;
+}
+
+.alerts-messagin .block-content nav ul li:first-child {
+    width: 66px;
+    align-content: center;
+}
+
+.alerts-messagin .block-content nav ul li:nth-child(2) {
+    width: 169px;
+    background-color: #ff503d;
+    color: #effff8;
+}
+
+.alerts-messagin .block-content nav ul li:nth-child(3) {
+    width: 90px;
+    border-left: 1px solid #d3d7d8;
+    border-right: 1px solid #d3d7d8;
+}
+
+.alerts-messagin .block-content nav ul li:nth-child(4) {
+    width: 90px;
+    border-right: 1px solid #d3d7d8;
+    background-color: #e6e6e6;
+}
+
+.alerts-messagin .block-content nav .search {
+    margin-right: 77px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.alerts-messagin .block-content nav .search input {
+    padding: 8px;
+    width: 143px;
+    border: 1px solid #d0d1d3;
+    font-size: 15px;
+}
+
+.alerts-messagin .block-content nav .search i {
+    color: #aaaaaa;
+    margin-left: -25px;
+    font-size: 12px;
+}
+
+.messages {
+    height: 52px;
+    border-bottom: 1px solid #d3d7d8;
+    display: flex;
+    align-items: center;
+}
+
+.messages:last-child {
+    border-bottom: none;
+}
+
+.messages p {
+    margin: 0;
+}
+
+.messages input {
+    margin-right: 40px;
+    margin-left: 23px;
+}
+
+.messages .user {
+    display: flex;
+    align-items: center;
+    width: 181px;
+    margin-right: 55px; 
+}
+
+.messages .user .user-status {
+    width: 16px;
+    border-radius: 999px;
+    height: 16px;
+    margin-right: 15px;
+}
+
+.messages .previously-messages {
+    height: 100%;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 54px;
+    padding: 0 10px;
+}
+
+.messages .previously-messages p {
+    font-family: arial;
+    color: #929697;
+    font-weight: bold;
+}
+
+.offline {
+    background-color: #c5cecd;
+}
+
+.inactive {
+    background-color: #ff5a34;
+}
+
+.online {
+    background-color: green;
+}
+
+.messages .user .user-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #626262;
+    font-size: 18px;
+}
+
+.messages .message-title {
+    color: #5d5d5d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 194px;
+    margin-right: 220px;
+}
+
+.messages .message-date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5d5d5d;
+    font-size: 17px;
+    margin-right: 35px;
+}
+
+.messages button {
+    border: none;
+    background-color: #fff;
+    color: #a5a5a5;
+    font-size: 18px;
+    outline: none;
+    transform: rotate(-90deg);
+    transition: .3s;
+}
+
+button.open { 
+    transform: rotate(0deg);
+}
+
+.messages button:hover {
+    cursor: pointer;
+}
+
+.message-content {
+    border-bottom: 1px solid #d3d7d8;
+    padding-left: 69px;
+    padding-right: 64px;
+    padding-top: 17px;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.message-content p:first-child {
+    margin-bottom: 10px;
+    color: #646464;
+    font-size: 18px;
+}
+
+.message-content p {
+    margin: 0;
+    color: #646464;
+    font-size: 15px;
+}
+.message-content .btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-content button:first-child {
+    margin-right: 15px;
+}
+
+.message-content button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    padding: 8px 13px;
+    font-weight: bold;
+}
+
+.message-content button:hover {
+    cursor: pointer;
+}
+
+.message-content .reply-message {
+    background-color: #00dabf;
+    color: #018a7a;
+}
+
+.message-content .delete-message {
+    background-color: #fe4e3f;
+    color: #fbfef5;
+}
+
+.reminders-calendar .title {
+    padding-right: 154px;
+}
+
+.reminders-calendar .title .format > button {
+    outline: none;
+    border: none;
+    background-color: #dfe0e5;
+}
+
+.reminders-calendar > .title .format {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #868686;
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.reminders-calendar > .title .format p {
+    margin: 0;
+}
+
+.reminders-calendar .block-content {
+    display: flex;
+    padding: 33px 0px;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.reminders-calendar .block-content .today {
+    width: 352px;
+    margin-left: 53px;
+}
+
+.reminders-calendar .block-content .today .date h5,p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.reminders-calendar .block-content .today .date p {
+    letter-spacing: 3px;
+}
+
+.reminders-calendar .block-content .today .date h5 {
+    font-size: 25px;
+}
+
+.reminders-calendar .block-content .today .date {
+    text-align: center;
+    color: #91999b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.reminders-calendar .block-content .today .reminder-title {
+    background-color: #ff503d;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+    padding: 8px 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.reminders-calendar .block-content .today .reminder-title i {
+    margin-right: 25px;
+}
+
+.reminders-calendar .block-content .today .reminder-title p:first-child {
+    font-size: 20px; 
+}
+
+.reminders-calendar .block-content .today .reminder-title p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.reminders-calendar .block-content .today .reminder-title button.dismiss {
+    width: 33px;
+    height: 33px;
+    padding: 0;
+    background-color: #dd4339;
+    color: #fff;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: auto;
+    margin-top: -8px;
+    margin-right: -18px;
+}
+
+.reminders-calendar .block-content .today .reminder-title button.dismiss i {
+    margin: auto;
+}
+
+.reminders-calendar .block-content .today .reminder-content {
+    background-color: #e3e3e3;
+    padding: 18px 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #646466;
+}
+
+.reminders-calendar .block-content .today .reminder-content .date-time {
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+
+.reminders-calendar .block-content .today .reminder-content .date-time .time {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.reminders-calendar .block-content .today .reminder-content .description {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.reminders-calendar .block-content .today .reminder-content .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.reminders-calendar .block-content .today .reminder-content .buttons button:first-child {
+    margin-right: 20px;
+    background-color: #00dabf;
+    color: #018a7a;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.reminders-calendar .block-content .today .reminder-content .buttons .done {
+    background-color: #fe4e3f;
+    color: #fbfef5;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.reminders-calendar .block-content .calendar {
+    width: 455px;
+    margin-right: 55px;
+}
+
+.reminders-calendar .block-content .calendar .month {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #969f9e;
+    font-size: 25px;
+    align-content: center;
+}
+
+.reminders-calendar .block-content .calendar .week {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00dabf;
+    color: #969f9e;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px 8px;
+    margin-top: 3px;
+}
+
+.reminders-calendar .block-content .calendar .week p {
+    margin: 0;
+}
+
+.reminders-calendar .block-content .calendar .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9d9d9f;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.reminders-calendar .block-content .calendar .days .day {
+    padding: 5px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reminders-calendar .block-content .calendar .days .actual-day span {
+
+    background-color: #ff503d;
+    border-radius: 989px;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    border: 3px solid gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.reminders-calendar .block-content .calendar .days .reminder-day span {
+
+    background-color: #ff8b82;
+    border-radius: 989px;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+
+
+.circle-of-care .block-content div.menu {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #959698;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+     
+}
+
+.circle-of-care .block-content .menu {
+    border-bottom: 1px solid #ced7e0;
+}
+
+.circle-of-care .block-content div.menu div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+
+.circle-of-care .block-content div.menu div:hover {
+    cursor: pointer;
+}
+
+.circle-of-care .block-content div.menu div:first-child {
+    border-right: 1px solid #ced7e0;
+}
+
+.circle-of-care .block-content div.menu div:nth-child(2) {
+    border-right: 1px solid #ced7e0;
+    
+}
+
+.circle-of-care .block-content div div.selected {
+    border-bottom: 4px solid #ff503b;
+}
+
+.circle-of-care .block-content div div .notifications  {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.circle-of-care .block-content  .notifications p {
+    font-size: 11px;
+}
+
+.circle-of-care .block-content .selected-content {
+    background-color: #f6f6f6;
+}
+
+.circle-of-care .block-content .selected-content .drag-drop {
+    text-align: center;
+    width: 315px;
+    margin: auto;
+    border: none;
+    padding: 30px 0;
+}
+
+.circle-of-care .block-content .selected-content .drag-drop p {
+    margin: 0;
+    background: #e2e1df;
+    padding: 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #565451;
+}
+
+.circle-of-care .block-content .selected-content .people {
+    display: grid;
+    grid-template-columns: repeat(2, 293px);
+    grid-column-gap: 96px;
+    grid-row-gap: 32px;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card {
+    box-sizing: border-box;
+    /*border-left: 6px solid #ff503c;*/
+    border: 1px solid #ced7e0;
+    height: 148px;
+    display: flex;
+    background-color: #fff;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .left-column-red {
+    height: 100%;
+    width: 6px;
+    background-color: #ff503c;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .left-column-green {
+    background-color: #00dabf;
+    height: 100%;
+    width: 6px;
+}
+
+
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .name {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #929896;
+    padding-top: 9px;
+    padding-right: 27px;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .name p {
+    margin: 0;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .name p:nth-child(2) {
+    margin-top: 5px;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .image img{
+    width: 70px;
+    height: 70px;
+    border: 6px #e9e9e9 solid;
+    border-radius: 999px;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .image {
+    width: 59px;
+    height: 63px;
+    margin-left: 20px;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .message, .message-green {
+    display: flex;
+    align-self: flex-end;
+    width: auto;
+}
+
+.circle-of-care .block-content .selected-content .people .people-card .user-detail .message button {
+    margin-left: auto;
+    background-color: #ff503d;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 12px;
+}
+
+.message-green button {
+    background-color: #00dabf;
+    color: #0a6867;
+    margin-left: auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 12px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    background-color: #fff;
+    border: 2px solid #f59394;
+    padding: 9px;
+    border-radius: 3px;
+}
+
+.messages input[type="checkbox"] {
+    border-color: #c8d5db;
+}
+
+.input-container {
+    position: relative;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 22px;
+    margin-right: 54px;
+}
+
+.main {
+    margin-left: 37px;
+}
+
+.main .checkmark {
+    border-color: #fd8e94;
+}
+
+
+
+
+.input-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #c8d5db;
+    border-radius: 5px;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+
+.input-container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  
+.input-container .checkmark:after {
+    left: 7px;
+    top: 2px;
+    width: 6px;
+    height: 13px;
+    border: solid #07e6c7;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+p#previous-month:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+p#next-month:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+@media only screen and (max-width: 768px) {
+    .reminders-calendar {
+        display: none;
+    }
+
+    .circle-of-care {
+        display: none;
+    }
+
+    .apps {
+        grid-template-columns: repeat(2, 297px);
+        grid-template-rows: repeat(4, 149px);
+        width: auto;
+        justify-content: center;
+    }
+
+    .avatar > .user-name {
+        display: none;
+    }
+
+    .content-right > .settings p {
+        display: none;
+    }
+
+    .content-right > .settings {
+        margin-left: 5px;
+    }
+
+    .content-right > .dot {
+        display: none;
+    }
+
+    .content-right > .logout p {
+        display: none;
+    }
+
+    .content-right > .logout {
+        margin-left: 15px;
+    }
+
+    nav {
+        padding: 0 10px;
+    }
+
+    .alerts-messagin .block-content {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .input-container {
+        margin-right: 25px;
+    }
+
+    /*.messages .user .user-status {
+        width: 24px;
+        border-radius: 999px;
+        height: 15px;
+        margin-right: 15px;
+    }*/
+
+    .main {
+        margin-right: 54px;
+    }
+    
+    .messages .user {
+        margin-right: 40px;
+    }
+
+    .messages .message-title {
+        margin-right: 0;
+    }
+
+    .alerts-messagin .block-content nav .search i {
+        margin-right: 21px;
+        margin-left: -25px;
+    }
+
+    .alerts-messagin .block-content nav .search input {
+        width: 87px;
+    }
+
+    .alerts-messagin .block-content nav .search {
+        margin-right: 0;
+    }
+
+    .alerts-messagin .block-content nav ul li:nth-child(4) {
+        width: 74px;
+    }
+
+    .alerts-messagin .block-content nav ul li:nth-child(3) {
+        width: 76px;
+    }
+
+    .alerts-messagin .block-content nav ul li:nth-child(2) {
+        width: 155px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .app-icon {
+        height: 68px;
+    }
+
+    .apps {
+        grid-template-columns: repeat(2, 245px);
+    }
+
+    .app-card-border .notifications {
+        margin-left: 190px;
+    }
+
+    .app-card-border .score {
+        margin-left: 75px;
+    }
+
+    .messages .user {
+        margin-right: 5px;
+    }
+
+    .messages .message-title {
+        width: 185px;
+    }
+}
